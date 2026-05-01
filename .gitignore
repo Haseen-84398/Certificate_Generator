@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data folders (unwanted for GitHub)
+output/
+input/
+template/certificate_template.jpg
+*.xlsx
+*.pdf
+*.jpg
+*.png
+
+# Virtual environment
+venv/
+.env
