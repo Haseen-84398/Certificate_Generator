@@ -3,13 +3,24 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Data folders (unwanted for GitHub)
-output/
-input/
-template/certificate_template.jpg
+# Folders to keep structured but private
+output/*
+!output/.gitkeep
+input/*
+!input/.gitkeep
+!input/sample_candidates.xlsx
+
+# Keep the template
+!template/
+!template/certificate_template.jpg
+
+# Block all other data files
 *.xlsx
+!input/sample_candidates.xlsx
 *.pdf
 *.jpg
+!template/certificate_template.jpg
+!output/_calibration_preview.jpg
 *.png
 
 # Virtual environment
